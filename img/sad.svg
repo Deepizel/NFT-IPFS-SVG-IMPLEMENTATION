@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="title desc">
+  <title id="title">Sad face</title>
+  <desc id="desc">Yellow circular sad face with two eyes and a downward curved mouth</desc>
+
+  <!-- face -->
+  <circle cx="100" cy="100" r="90" fill="#FFD93B" stroke="#F4B400" stroke-width="6"/>
+
+  <!-- left eye -->
+  <ellipse cx="70" cy="80" rx="12" ry="16" fill="#2D2D2D"/>
+
+  <!-- right eye -->
+  <ellipse cx="130" cy="80" rx="12" ry="16" fill="#2D2D2D"/>
+
+  <!-- mouth (frown) -->
+  <path d="M55 140 Q100 100 145 140" stroke="#e47070" stroke-width="8" fill="transparent" stroke-linecap="round"/>
+</svg>

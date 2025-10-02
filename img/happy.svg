@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="title desc">
+  <title id="title">Smiley face</title>
+  <desc id="desc">Yellow circular smiley face with two eyes and a curved mouth</desc>
+
+  <!-- face -->
+  <circle cx="100" cy="100" r="90" fill="#FFD93B" stroke="#F4B400" stroke-width="6"/>
+
+  <!-- left eye -->
+  <ellipse cx="70" cy="80" rx="12" ry="16" fill="#2D2D2D"/>
+
+  <!-- right eye -->
+  <ellipse cx="130" cy="80" rx="12" ry="16" fill="#2D2D2D"/>
+
+  <!-- mouth -->
+  <path d="M55 120 Q100 160 145 120" stroke="#2D2D2D" stroke-width="8" fill="transparent" stroke-linecap="round"/>
+
+  <!-- slight cheek highlights -->
+  <ellipse cx="62" cy="110" rx="6" ry="3" fill="#FFE680" opacity="0.9"/>
+  <ellipse cx="138" cy="110" rx="6" ry="3" fill="#FFE680" opacity="0.9"/>
+</svg>
